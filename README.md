@@ -220,8 +220,6 @@ Présent dans le fichier `.github/workflows/docker.yml`.
 
 Les releases sont déployées [sur ce lien](https://hub.docker.com/r/x9nico/exam_docker/tags).
 
-La CI/CD finit dans le rouge, mais ça déploie bien avec le tag `master` dans le Docker hub :)
-
 ### 17. Optimiser une image avec Dive (100 pts)
 
 **Objectif** : Analyser la taille des couches d’une image Docker et l’optimiser.
