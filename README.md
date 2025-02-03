@@ -218,6 +218,8 @@ docker run --rm rootless-container
 
 Présent dans le fichier `.github/workflows/docker.yml`.
 
+Le repo GitHub qui tourne les CI/CD figure [sur ce lien](https://github.com/x9nico/Exam_Docker)
+
 Les releases sont déployées [sur ce lien](https://hub.docker.com/r/x9nico/exam_docker/tags).
 
 La chaîne de CI/CD va créer une nouvelle version à chaque nouveaux commits une release sous le tag `master`.
