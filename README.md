@@ -220,6 +220,10 @@ Présent dans le fichier `.github/workflows/docker.yml`.
 
 Les releases sont déployées [sur ce lien](https://hub.docker.com/r/x9nico/exam_docker/tags).
 
+La chaîne de CI/CD va créer une nouvelle version à chaque nouveaux commits une release sous le tag `master`.
+
+La variable `DOCKER_PASSWORD` représente un PAT créé avec les droits `Read & Write` sur [Docker Hub](https://hub.docker.com)
+
 ### 17. Optimiser une image avec Dive (100 pts)
 
 **Objectif** : Analyser la taille des couches d’une image Docker et l’optimiser.
